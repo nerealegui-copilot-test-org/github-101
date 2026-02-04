@@ -101,11 +101,12 @@ This document explains what can be accessed within GitHub through the Copilot ag
 - Team management features
 
 ❌ **Git limitations:**
-- Cannot pull branches from GitHub (cannot fix merge conflicts directly)
+- Cannot pull branches from GitHub (merge conflicts requiring branch pulling cannot be resolved)
 - Cannot use `git push` directly (must use report_progress tool)
 - Cannot use `git reset` or `git rebase` with force push
 - Cannot clone additional repositories
 - Cannot push to other repositories
+- Note: Simple merge conflicts in already-pulled code can be resolved through local file editing
 
 ### Workarounds Available
 

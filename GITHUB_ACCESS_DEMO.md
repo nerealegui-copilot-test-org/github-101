@@ -85,7 +85,7 @@ I have full access to the local repository files:
 ```bash
 # I can search across GitHub
 # Example tools:
-- search_code (search code across all public repos)
+- search_code (search code across public repos and private repos I have access to)
 - search_repositories (find repos by criteria)
 - search_issues (find issues across repos)
 - search_pull_requests
